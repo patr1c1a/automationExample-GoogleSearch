@@ -14,7 +14,9 @@ Make sure you have Maven and Java JDK installed and MAVEN_HOME as well as JAVA_H
 Clone or download the project to the local drive. Within a command prompt window/terminal, navigate to it. Then run "mvn clean test".
 
 E.g.:
+
 cd C:/automationExample-GoogleSearch
+
 mvn clean test
 
 ------------------------------------------------------------------
