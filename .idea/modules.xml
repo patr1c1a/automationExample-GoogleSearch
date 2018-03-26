@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutomationExercise.iml" filepath="$PROJECT_DIR$/AutomationExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automationExample-GoogleSearch.iml" filepath="$PROJECT_DIR$/automationExample-GoogleSearch.iml" />
     </modules>
   </component>
 </project>
