@@ -1,6 +1,6 @@
 # Automation example
 
-
+This was an assignment I worked on, where I was asked to automate a single test using the tools of my choosing.
 
 * Tools used: Selenium Webdriver (v. 3.11), Cucumber (v. 1.2.5), Java JDK (v. 1.8), JUnit (4.12), Maven (v. 3.2.5), Chromedriver (v. 2.36.540470 for Windows).
 * Environment: IntelliJ IDEA Community 2017.3, Windows (v. 10 - 64 bit), Chrome (v. 65.0.3325.181).
@@ -23,7 +23,7 @@ mvn clean test
 
 ## Test:
 
-The project performs the following test:
+The project performs the following test (provided in the assignment):
 - Given I want to go to the 'www.seleniumhq.org' Page
 - When I go to 'www.google.com'
 - and I type 'Seleniumhq' in the searchbox
