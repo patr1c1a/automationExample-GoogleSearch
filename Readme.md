@@ -1,4 +1,4 @@
-**AutomationExercise by Patricia E. Miguel**
+**Automation example**
 
 ------------------------------------------------------------------
 
