@@ -1,6 +1,6 @@
 # Automation example
 
-This was an assignment I worked on, where I was asked to automate a single test using the tools of my choosing.
+This was a demo I had to do, where I was asked to automate a single test that performs a Google search.
 
 * Tools used: Selenium Webdriver (v. 3.11), Cucumber (v. 1.2.5), Java JDK (v. 1.8), JUnit (4.12), Maven (v. 3.2.5), Chromedriver (v. 2.36.540470 for Windows).
 * Environment: IntelliJ IDEA Community 2017.3, Windows (v. 10 - 64 bit), Chrome (v. 65.0.3325.181).
@@ -23,22 +23,18 @@ mvn clean test
 
 ## Test:
 
-The project performs the following test (provided in the assignment):
-- Given I want to go to the 'www.seleniumhq.org' Page
-- When I go to 'www.google.com'
+This demo only runs one test:
+- Given I go to www.google.com
 - and I type 'Seleniumhq' in the searchbox
 - and I press 'ENTER' in the searchbox
 - and I click on 'Selenium HQ' link
 - Then I´m on Selenium HQ Page
 
-These test steps have been slightly modified as "_I want to go to the 'www.seleniumhq.org' Page_" was not a suitable precondition for the "Given" setup step, but a test description/expected behavior instead.
-
 ------------------------------------------------------------------
 
 **Project structure and patterns used:**
 
-A single test might use more than one of these page objects (e.g.: when they navigate from one page to another).
-The project uses the Page Object Model pattern to separate the actions that deal with elements in a page from the actual test logic. 
+The project uses the Page Object Model pattern to separate the actions performed on each page from the actual test logic. 
 Location strategy chosen is CSS selectors, and it was done by using a PageFactory object (which provides POM support).
 
 If there is a failed step, a screenshot will be captured and stored in the /target directory.
